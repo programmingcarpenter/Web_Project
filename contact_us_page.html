@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="styles/header_footer.css">
+    <link rel="stylesheet" href="styles/contact_us.css">
 </head>
 <body>
     <header>
         <a id="logo_link" href="index.html">
-            <img class="logo" src="images/ryla_logo.png" alt="Ryla Solutions LLC Logo">
+            <img class="logo" src="images/ryla_logo.webp" alt="Ryla Solutions LLC Logo">
         </a>
         <nav>
             <a href="index.html">Home</a>
@@ -22,17 +23,36 @@
             <a href="privacy_page.html">Privacy Policy</a>
         </nav>
     </header>
+    <main>
+        <h1>Contact Us</h1>
+        <form method="get" action="contact_complete.html">
+            
+            <div>
+                <label id="custName">Your Name*</label>
+                <fieldset>
+                    <input type="text" id="name" name="customerName" required>
+                </fieldset>
+            </div>
 
+            <div>
+                <label id="written" for="reviewArea">Email Address*</label>
+                <fieldset>
+                    <input type="email" id="email" name="customerEmail" required>
+                </fieldset>
+            </div>
+            <label><input class="submit_button" type="submit" value="Send"></label>
+        </form>
+    </main>
     <footer>
         <div class="social">
             <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook_logo.png" alt="fb icon">
+                <img src="images/facebook_logo.webp" alt="fb icon">
             </a>
             <a href="https://twitter.com" target="_blank">
-                <img src="images/x_logo.png" alt="X 'Twitter' icon">
+                <img src="images/x_logo.webp" alt="X 'Twitter' icon">
             </a>
             <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram_logo.jpg" alt="instagram icon">
+                <img src="images/instagram_logo.webp" alt="instagram icon">
             </a>
         </div>
     </footer>
