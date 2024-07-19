@@ -8,6 +8,10 @@ h2 {
     padding-top: .5rem;
 }
 
+header {
+    justify-content: center;
+}
+
 body {
     height: auto;
     width: 100%;
@@ -33,7 +37,7 @@ p {
 }
 
 main {
-    width: 700px;
+    width: 100%;
     font-size: 17px;
     padding-bottom: 2rem;
     margin: auto;

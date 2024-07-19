@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <meta name="description" content="Home page for the Card view of the project">
+    <meta name="author" content="Chad Carpenter">
+    <link rel="stylesheet" href="styles/project.css">
     <link rel="stylesheet" href="styles/header_footer.css">
-    <link rel="stylesheet" href="styles/contact_us.css">
     <link rel="stylesheet" href="styles/header_large.css">
     <script src="scripts/header_button.js" defer></script>
+    <script src="scripts/project.js" defer></script>
+    <title>Insurance Plans</title>
 </head>
 <body>
     <header>
@@ -18,34 +21,20 @@
         <nav>
             <ul class="navigation">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="project.html">Insurance Plans</a></li>
+                <li><a id="selected_page" href="project.html">Insurance Plans</a></li>
                 <li><a href="employee_benefits_page.html">Employee Benefits</a></li>
                 <li><a href="legalshield_page.html">LegalShield</a></li>
                 <li><a href="life_insurance_page.html">Life Insurance</a></li>
-                <li><a id="selected_page" href="contact_us_page.html">Contact Us</a></li>
+                <li><a href="contact_us_page.html">Contact Us</a></li>
                 <li><a href="about_us_page.html">About Us</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Contact Us</h1>
-        <form method="get" action="contact_complete.html">
-            
-            <div>
-                <label id="custName">Your Name*</label>
-                <fieldset>
-                    <input type="text" id="name" name="customerName" required>
-                </fieldset>
-            </div>
+        <h1>Supplementary Health</h1>
+        <div id="cardContainer">
 
-            <div>
-                <label id="written" for="reviewArea">Email Address*</label>
-                <fieldset>
-                    <input type="email" id="email" name="customerEmail" required>
-                </fieldset>
-            </div>
-            <label><input class="submit_button" type="submit" value="Send"></label>
-        </form>
+        </div>
     </main>
     <footer>
         <div class="social">
